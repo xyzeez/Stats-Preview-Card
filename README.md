@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/image-header-desktop.jpg)
-![](./images/image-header-mobile.jpg)
+![](./images/Web%20Screenshot.png)
+![](./images/Mobile%20Screenshot.png)
 
 
 ### Links
