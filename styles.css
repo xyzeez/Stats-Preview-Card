@@ -1,0 +1,178 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1024px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.txt {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.txt-span {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-family: inter, 'san-serif';
+    font-weight: 600;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.3;
+}
+
+.body-txt {
+    font-size: 12px;
+    font-family: inter, 'san-serif';
+    font-weight: 400;
+    line-height: 1.3;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 85%;
+}
+
+.counts {
+    display: flex;
+    column-gap: 50px;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    font-family: Lexend Deca, 'san-serif';
+}
+
+.counth {
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+}
+
+.countp {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.img {
+    width: 50%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(84, 1, 136, 0.562);
+    z-index: 1;
+}
+
+@media screen and (max-width: 1080px) {
+
+    main {
+        border-radius: 30px;
+    }
+
+    body {
+        margin: 100px;
+    }
+
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .txt, .img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .txt {
+        padding: 80px 65px;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 1.2;
+        text-align: center;
+    } 
+
+    .body-txt {
+        font-size: 35px;
+        text-align: center;
+        line-height: 1.7;
+        width: 100%;
+    }
+
+    .counts {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 80px;
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .counth {
+        font-size: 50px;
+    }
+    
+    .countp {
+        font-size: 40px;
+    } 
+    
+}
