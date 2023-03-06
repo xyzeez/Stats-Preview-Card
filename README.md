@@ -1,20 +1,21 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+![](./images/screenshots/desktop-preview.jpg)
+
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -24,34 +25,31 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot
-
-![](./images/Web%20Screenshot.png)
-![](./images/Mobile%20Screenshot.png)
-
-
 ### Links
 
 - Solution URL: [Click here](https://www.frontendmentor.io/solutions/stats-preview-card-component-lBwFjtRWeB)
 - Live Site URL: [Click here](https://femc-stats-preview-card.netlify.app/)
 
+### Screenshot
+
+- [Mobile](./images/screenshots/mobile.png)
+- [Tablet](./images/screenshots/tablet.png)
+- [Desktop](./images/screenshots/desktop.png)
+
 ## My process
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Animation
 
+### Useful resources
 
-### What I learned
-
-I focused more on the use of media queries and it was quite challenging.
-
-
-### Continued development
-
-I'd like to work more on using the media query conditions.
+- [7 CSS Units You Might Not Know About](https://webdesign.tutsplus.com/articles/7-css-units-you-might-not-know-about--cms-22573)
+- [Text Animation Inspiration](https://codepen.io/alvarotrigo/pen/PoKMyNO)
 
 
 ## Author
